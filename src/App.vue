@@ -1,7 +1,8 @@
 
 <template>
     <div>
-            <h1>App</h1>
+        <!-- 固定顶部 -->
+           <mt-header fixed title="shop"></mt-header>
     </div>
 </template>
 
