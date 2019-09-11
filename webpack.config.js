@@ -17,7 +17,7 @@ module.exports = {
         //     {test:/\.js$/,loader:"jsx-loader"}
         // ],
         rules:[
-            {test:/\.ccs$/,use:['style-loader','css-loader']},
+            {test:/\.css$/,use:['style-loader','css-loader']},
             {test:/\.scss$/,use:['style-loader','css-loader','scss-loader']},
             {test:/\.(jpg|png|gif|jpeg|bmp)$/,use:['url-loader?limit=9800&name=[hash:8]-[name].[ext]']},
             {test:/\.(ttf|eot|svg|woff|woff2)$/,use:"url-loader"},
@@ -43,6 +43,9 @@ module.exports = {
             }
         ),
         new VueLoaderPlugin()
-    ]
+    ],
+    externals:{
+        // 'mint-ui':'MINT'
+    }
 
 }
