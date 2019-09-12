@@ -5,33 +5,39 @@ import VueRouter from 'vue-router'
 //导入vue-resource
 import VueResource from 'vue-resource'
 
-//Vue挂载路由
-Vue.use(VueRouter)
-//Vue挂载resource
-Vue.use(VueResource)
-
 //导入mui的样式文件
 import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 
-
+///导入时间格式化插件
+import moment from 'moment'
 
 //按需导入mint-ui组件
-import {Header,Swipe, SwipeItem} from 'mint-ui'
+import {Header,Swipe, SwipeItem,Button} from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 //导入路由模块
 import router from './router'
 
+//Vue挂载路由
+Vue.use(VueRouter)
+//Vue挂载resource
+Vue.use(VueResource)
+
 //组件挂载到Vue
 Vue.component(Header.name,Header)
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+Vue.component(Button.name, Button);
 
 
 //导入根组件
 import App from './App.vue'
 
+//定义全局filter
+Vue.filter("dateFormate",function(dataStr,pattern='YYYY-MM-DD HH:mm:ss'){
+     return moment(dataStr).format(pattern)
+})
 
 let vm = new Vue({
     el:"#app",

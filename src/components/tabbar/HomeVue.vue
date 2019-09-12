@@ -16,9 +16,9 @@
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
 		                    <span class="mui-icon mui-icon-email grid_item_icon"><span class="mui-badge">5</span></span>
 		                    <div class="mui-media-body">Email</div></a></li>
-		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/news">
 		                    <span class="mui-icon mui-icon-chatbubble grid_item_icon"></span>
-		                    <div class="mui-media-body">Chat</div></a></li>
+		                    <div class="mui-media-body">新闻</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
 		                    <span class="mui-icon mui-icon-location grid_item_icon"></span>
 		                    <div class="mui-media-body">location</div></a></li>
@@ -61,7 +61,7 @@ export default {
 }
 </script>
 
-<style  land="scss" scoped >
+<style  lang="scss" scoped >
 
 .mint-swipe{
   height:200px;

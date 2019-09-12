@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style scoped land="scss">
+<style scoped lang="scss">
 
 </style>
