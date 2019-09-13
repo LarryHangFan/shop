@@ -1,0 +1,38 @@
+let nav = {
+    code:200,
+    data:[
+        {
+            id:0,
+            "title":"全部"
+        },
+        {
+            id:1,
+            "title":"动画"
+        },
+        {
+            id:2,
+            "title":"电视剧"
+        },
+        {
+            id:3,
+            "title":"电影"
+        },
+        {
+            id:4,
+            "title":"萌宠"
+        },
+        {
+            id:5,
+            "title":"热血"
+        },
+        {
+            id:6,
+            "title":"卡通"
+        },
+        {
+            id:7,
+            "title":"自然"
+        }
+    ]
+}
+export default nav

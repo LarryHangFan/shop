@@ -5,7 +5,13 @@
     ],
    
     "plugins": [
-        "transform-runtime"
+        "transform-runtime","transform-remove-strict-mode",[
+            "component",[{
+                "libraryName":"mint-ui",
+                "style":true
+            }]
+        ]
+        
     ]
    
    }
