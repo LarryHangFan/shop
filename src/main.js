@@ -13,23 +13,40 @@ import './lib/mui/css/icons-extra.css'
 import moment from 'moment'
 
 //按需导入mint-ui组件
-import {Header,Swipe, SwipeItem,Button} from 'mint-ui'
+//import {Header,Swipe, SwipeItem,Button,Lazyload} from 'mint-ui'
+import Mint from 'mint-ui';
+
 import 'mint-ui/lib/style.css'
 
 //导入路由模块
 import router from './router'
 
+import VuePreview from 'vue-preview'
+
+// defalut install
+Vue.use(VuePreview)
+Vue.use(VuePreview, {
+     mainClass: 'pswp--minimal--dark',
+     barsSize: {top: 0, bottom: 0},
+     captionEl: false,
+     fullscreenEl: false,
+     shareEl: false,
+     bgOpacity: 0.85,
+     tapToClose: true,
+     tapToToggleControls: false
+   })
 //Vue挂载路由
 Vue.use(VueRouter)
 //Vue挂载resource
 Vue.use(VueResource)
 
-//组件挂载到Vue
-Vue.component(Header.name,Header)
-Vue.component(Swipe.name, Swipe);
-Vue.component(SwipeItem.name, SwipeItem);
-Vue.component(Button.name, Button);
-
+Vue.use(Mint);
+//组件注册到Vue
+// Vue.component(Header.name,Header)
+// Vue.component(Swipe.name, Swipe);
+// Vue.component(SwipeItem.name, SwipeItem);
+// Vue.component(Button.name, Button);
+// Vue.use(Lazyload);
 
 //导入根组件
 import App from './App.vue'

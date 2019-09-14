@@ -1,13 +1,7 @@
 <template>
   <div>
   <!-- 轮播区 -->
-      <mt-swipe :auto="0">
-
-          <mt-swipe-item v-for="item in swriperDataList" :key="item.id">
-          <img :src="item.imgSrc" class="swriperImgs">
-          </mt-swipe-item>
-       
-      </mt-swipe>
+      <srapper :swriperDataList="swriperDataList"></srapper>
     <!-- 九宫格 -->
     <ul class="mui-table-view mui-grid-view mui-grid-9 grid_view_6">
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
@@ -22,9 +16,9 @@
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/photolist">
 		                    <span class="mui-icon mui-icon-location grid_item_icon"></span>
 		                    <div class="mui-media-body">分享</div></router-link></li>
-		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/goods">
 		                    <span class="mui-icon mui-icon-search grid_item_icon"></span>
-		                    <div class="mui-media-body">Search</div></a></li>
+		                    <div class="mui-media-body">商品</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
 		                    <span class="mui-icon mui-icon-phone grid_item_icon"></span>
 		                    <div class="mui-media-body">Phone</div></a></li>
@@ -36,6 +30,8 @@
 <script>
 import swriperData from  '../../data/swraper'
 import {Toast} from 'mint-ui'
+import srapper from '../common/Swrapper'
+
 export default {
     data(){
         return {
@@ -57,6 +53,9 @@ export default {
     },
     created() {
       this.getSwriper()
+    },
+    components:{
+      srapper
     }
 }
 </script>

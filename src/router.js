@@ -7,7 +7,10 @@ import SearchVue from './components/tabbar/SearchVue.vue'
 import ShopCarVue from './components/tabbar/ShopCarVue.vue'
 import News from './components/news/NewList'
 import NewDetail from './components/news/NewDetails'
-import photoList from './components/photo/photolist.vue'
+import photolist from './components/photo/photolist'
+import photoDetail from './components/photo/PhotoDetail'
+import goods from './components//goods/GoodsList'
+import goodsInfo from './components/goods/GoodsInfo'
 let router = new VueRouter({
     routes:[
          {path:'/',redirect:'/home'},
@@ -17,12 +20,13 @@ let router = new VueRouter({
          {path:'/search',name:'search', component: SearchVue},
          {path:'/news',name:'news',component:News},
          {path:'/news/news_detail/:id',name:'news_detail',component:NewDetail},
-         {path:'/home/photolist',name:'photolist',component:photoList}
-        
+         {path:'/home/photolist',name:'photo',component:photolist},
+         {path:'/photolist/photodetail/:id',name:'photoDetail',component:photoDetail},
+         {path:'/home/goods',name:'goods',component:goods},
+         {path:'/goods/goodsinfo/:id',name:"goodsinfo",component:goodsInfo}
     ],
     linkActiveClass : 'mui-active'
-
-    
+   
 })
 
 //暴露路由

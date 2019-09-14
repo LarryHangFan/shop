@@ -1,0 +1,91 @@
+let goodsList = {
+    code:200,
+    data:[
+        {
+          id:1,
+          title:'【淘宝优品】九牧马桶家用户型卫浴 虹吸抽水节水普通坐便器11249',
+          add_time:"2013-2-3",
+            good_no:'201423323232334',
+          desc:'极有家认证[品牌商]：品牌直营，正品保障',
+          click:23,
+          img_src:'https://gd2.alicdn.com/imgextra/i1/1770882448/TB2FZ8KXeOSBuNjy0FdXXbDnVXa_!!1770882448.jpg',
+          sell_price:234,
+          market_price:2323,
+          store_quantity:232
+        },
+        {
+            id:2,
+            good_no:'23401423323232334',
+            title:'橱柜门定制欧式灶台门鞋柜门板衣柜门网格百叶全铝合金定做晶钢门',
+            add_time:"2013-2-3",
+            desc:'极有家认证[品牌商]：品牌直营，正品保障',
+            click:23,
+            img_src:'https://gd3.alicdn.com/imgextra/i3/785416444/O1CN01NV2IF71xTOjkeJWem_!!785416444.jpg',
+            sell_price:2334,
+            market_price:12323,
+            store_quantity:232
+          },
+          {
+            id:3,
+            good_no:'2032312423323232334',
+            title:'个性拼花木地板 复古欧式美式防水耐磨地热地暖环保 家用强化复合',
+            add_time:"2013-2-3",
+            desc:'极有家认证[品牌商]：品牌直营，正品保障',
+            click:23,
+            img_src:'https://gd1.alicdn.com/imgextra/i1/641329152/O1CN01vNDXKE2HTfLKktBY2_!!641329152.jpg',
+            sell_price:234,
+            market_price:2323,
+            store_quantity:232
+          },
+          {
+            id:4,
+            good_no:'1111201423323232334',
+            title:' 卫浴智能北欧轻奢浴室柜组合落地式洗手洗脸面盆池卫生间洗漱台盆',
+            add_time:"2013-2-3",
+            desc:'极有家认证[品牌商]：品牌直营，正品保障',
+            click:23,
+            img_src:'https://img.alicdn.com/bao/uploaded/i2/134561500/O1CN01qOxWV11Mx2cc0MOlk_!!134561500.jpg',
+            sell_price:234,
+            market_price:2323,
+            store_quantity:232
+          }
+          ,{
+            id:5,
+            good_no:'2222222201423323232334',
+            title:'北欧厨卫瓷砖厨房卫生间白砖哑光亮光洗手间瓷砖小白砖150',
+            add_time:"2013-2-3",
+            desc:'极有家认证[品牌商]：品牌直营，正品保障',
+            click:23,
+            img_src:'https://gd2.alicdn.com/imgextra/i1/1770882448/TB2FZ8KXeOSBuNjy0FdXXbDnVXa_!!1770882448.jpg',
+            sell_price:234,
+            market_price:2323,
+            store_quantity:232
+          },
+          {
+            id:6,
+            good_no:'777201423323232334',
+            title:'【淘宝优品】九牧马桶家用户型卫浴 虹吸抽水节水普通坐便器11249',
+            add_time:"2013-2-3",
+            desc:'极有家认证[品牌商]：品牌直营，正品保障',
+            click:23,
+            img_src:'https://gd1.alicdn.com/imgextra/i1/392411087/TB2H0UTaSFjpuFjSspbXXXagVXa_!!392411087.jpg',
+            sell_price:234,
+            market_price:2323,
+            store_quantity:232
+          },
+          {
+            id:7,
+            good_no:'888201423323232334',
+            title:'北欧实木浴室柜组合智能镜简约现代洗手洗脸盆柜轻奢卫生间洗漱台',
+            add_time:"2013-2-3",
+            desc:'极有家认证[品牌商]：品牌直营，正品保障',
+            click:23,
+            img_src:'https://img.alicdn.com/imgextra/i1/875432240/O1CN012WWYhH1SPxjRX4tCg_!!875432240.jpg',
+            sell_price:234,
+            market_price:2323,
+            store_quantity:232
+          }
+
+    ]
+}
+export default goodsList

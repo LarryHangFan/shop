@@ -1,0 +1,46 @@
+let goodsWrapper ={
+    data:200,
+    data:[
+        {
+            id:1,
+            img_src:[
+                'https://gd2.alicdn.com/imgextra/i1/1770882448/TB2FZ8KXeOSBuNjy0FdXXbDnVXa_!!1770882448.jpg',
+                'https://gd4.alicdn.com/imgextra/i4/1770882448/TB2j627nnlYBeNjSszcXXbwhFXa_!!1770882448.jpg',
+                'https://gd2.alicdn.com/imgextra/i2/1770882448/TB2gEQzeilnpuFjSZFgXXbi7FXa_!!1770882448.jpg'
+            ]
+        },
+        {
+            id:2,
+            img_src:[
+                'https://img.alicdn.com/tfscom/i5/TB1QQ96KpXXXXXHaXXXYXGcGpXX_M2.SS2_460x460xz.jpg',
+                'https://img.alicdn.com/tfscom/i1/53383510/TB2kqyglNdkpuFjy0FbXXaNnpXa_!!53383510.jpg_460x460xz.jpg',
+                'https://img.alicdn.com/tfscom/i3/53383510/TB2QKBFbTAKh1JjSZFDXXbKlFXa_!!53383510.jpg_460x460xz.jpg'
+            ]
+        },
+        {
+            id:3,
+            img_src:[
+                'https://img.alicdn.com/tfscom/i1/2594639084/O1CN01yZXOu42GyWONBh4b0_!!2594639084.jpg_460x460xz.jpg',
+                'https://img.alicdn.com/tfscom/i2/2594639084/O1CN016p2dwo2GyWOdJrGW3_!!2594639084.jpg_460x460xz.jpg',
+                'https://img.alicdn.com/tfscom/i3/2594639084/O1CN01WkWyLb2GyWOZfpRrK_!!2594639084.jpg_460x460xz.jpg'
+            ]
+        },
+        {
+            id:4,
+            img_src:[
+                'https://img.alicdn.com/imgextra/i2/1994256139/O1CN01c3aWrU1vDhyxMg4tl_!!1994256139-0-beehive-scenes.jpg_460x460xz.jpg',
+                'https://img.alicdn.com/imgextra/i2/1994256139/O1CN01UaK4sz1vDhywW40mq_!!1994256139-0-beehive-scenes.jpg_460x460xz.jpg',
+                'https://img.alicdn.com/imgextra/i1/1994256139/O1CN01J1yVxw1vDhyxfKwm7_!!1994256139-0-beehive-scenes.jpg_460x460xz.jpg'
+            ]
+        },
+        {
+            id:5,
+            img_src:[
+                'https://gd2.alicdn.com/imgextra/i1/1770882448/TB2FZ8KXeOSBuNjy0FdXXbDnVXa_!!1770882448.jpg',
+                'https://gd4.alicdn.com/imgextra/i4/1770882448/TB2j627nnlYBeNjSszcXXbwhFXa_!!1770882448.jpg',
+                'https://gd2.alicdn.com/imgextra/i2/1770882448/TB2gEQzeilnpuFjSZFgXXbi7FXa_!!1770882448.jpg'
+            ]
+        }
+    ]
+}
+export default goodsWrapper
